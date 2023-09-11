@@ -31,20 +31,46 @@
   background-color: aqua;
   margin-top: 15px;
 }
+.title-right {
+  display: flex;
+  column-gap: 5px;
+}
 
 .box-right {
-  max-width: 200px;
+  max-width: 300px;
   width: 100%;
-  padding: 10px;
+  padding: 15px;
   border-radius: 10px;
   box-shadow: 10px 10px 30px gray;
   height: 200px;
   background-color: antiquewhite;
 }
 .box-left {
-  max-width: 200px;
+  max-width: 100px;
   width: 100%;
-  padding: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px gray;
+  height: 200px;
+  background-color: antiquewhite;
+}
+.title-left {
+  display: flex;
+  column-gap: 5px;
+}
+.box1-right {
+  max-width: 500px;
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px gray;
+  height: 200px;
+  background-color: antiquewhite;
+}
+.box1-left {
+  max-width: 150px;
+  width: 100%;
+  padding: 15px;
   border-radius: 10px;
   box-shadow: 10px 10px 30px gray;
   height: 200px;
